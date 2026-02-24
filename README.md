@@ -38,8 +38,18 @@ Traditional file sharing systems are vulnerable to data breaches and unauthorize
 
 ---
 
+---
 
+## ⚙️ System Requirements
 
+### Software Requirements
+- Java JDK 8 or above
+- Apache Tomcat Server (v8 or v9 recommended)
+- MySQL Server (5.x or above)
+- MySQL Connector (JDBC driver)
+- Eclipse IDE (for development)
+
+---
 ##  Technologies Used
 
 - Java
@@ -55,6 +65,36 @@ Traditional file sharing systems are vulnerable to data breaches and unauthorize
 - AES Encryption
 
 - Custom Blockchain Implementation
+
+---
+  
+## 🛠 How to Run the Project
+
+1. Install MySQL and create database:
+   secure_communication_db
+
+2. Import the file:
+   final_db.sql
+
+3. Open project in Eclipse.
+
+4. Configure Apache Tomcat Server.
+
+5. Add MySQL Connector JAR to project build path.
+
+6. Run the project on server.
+
+7. Open browser:
+   http://localhost:8080/ProjectName
+
+---
+##  Database Setup
+
+1. Install MySQL
+
+2. Create database: secure\_communication\_db
+
+3. Import `final\_db.sql`
 
 
 
@@ -76,17 +116,6 @@ Traditional file sharing systems are vulnerable to data breaches and unauthorize
 
 
 
----
-
-
-
-##  Database Setup
-
-1. Install MySQL
-
-2. Create database: secure\_communication\_db
-
-3. Import `final\_db.sql`
 
 
 
