@@ -36,7 +36,7 @@ To address these issues, this project implements a secure file transfer system u
 
 ---
 
-## ⚙️ System Requirements
+##  System Requirements
 
 ### Software Requirements
 - Java JDK 8 or above
@@ -58,7 +58,7 @@ To address these issues, this project implements a secure file transfer system u
 
 ---
   
-## 🛠 How to Run the Project
+##  How to Run the Project
 
 1. Install MySQL and create database:
    secure_communication_db
@@ -99,17 +99,12 @@ My contributions ensured seamless interaction between the web application and th
 
 
 
-
-
 ---
-
 
 
 ##  Security Features
 
 - AES encryption for file security
-
 - Hash-based blockchain logging
-
 - Role-based access control
 
