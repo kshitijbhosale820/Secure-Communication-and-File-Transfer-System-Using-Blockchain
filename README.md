@@ -23,7 +23,18 @@ To address these issues, this project implements a secure file transfer system u
 
 ---
 
+##  Key Features
 
+-  **Secure File Encryption** – Files are encrypted using AES encryption before being stored in the database to ensure data confidentiality.
+-  **Custom Blockchain Logging** – Every major transaction (file upload, request, approval, communication) is recorded as a block with hash and previous hash, ensuring immutability.
+-  **Role-Based Access Control** – Supports multiple user roles such as Admin, Owner, and User with controlled permissions.
+-  **Secure File Upload & Download** – Users can upload, request, and download files securely through authenticated access.
+-  **Database-Driven Architecture** – Structured MySQL schema ensures organized storage of user details, file data, communication logs, and request history.
+-  **Transaction Transparency** – Hash-linked block structure helps detect any unauthorized modification of records.
+-  **JDBC Integration** – Secure and efficient database connectivity implemented using JDBC in Java.
+-  Optimized Backend Operations – Efficient SQL queries and indexing techniques improve performance and scalability.
+  
+---
 
 ##  System Architecture
 
