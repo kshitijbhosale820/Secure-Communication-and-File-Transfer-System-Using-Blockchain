@@ -4,7 +4,9 @@
 
 ##  Project Overview
 
-This project is a secure file communication system developed using Java, JSP, Servlets, and MySQL. It integrates encryption techniques and a custom blockchain implementation to ensure secure data transfer and immutable transaction logging.
+Secure Communication and File Transfer System Using Blockchain Technology is a web-based application developed using Java, JSP, Servlets, and MySQL to provide secure and tamper-resistant file sharing. The system integrates encryption techniques to protect file data and a custom blockchain module to record file transactions in an immutable chain structure.
+
+It supports multiple roles such as Admin, Owner, and User, ensuring role-based access control. Every important action—like file upload, request, approval, or communication—is securely logged, improving transparency, data integrity, and system reliability.
 
 
 
@@ -14,8 +16,9 @@ This project is a secure file communication system developed using Java, JSP, Se
 
 ##  Problem Statement
 
-Traditional file sharing systems are vulnerable to data breaches and unauthorized access. This system provides secure communication using encryption and blockchain technology to ensure data confidentiality and integrity.
+Traditional file-sharing and communication systems are centralized and vulnerable to security threats such as unauthorized access, data breaches, and data tampering. These systems often lack transparency and reliable mechanisms to verify whether stored data has been modified.
 
+To address these issues, this project implements a secure file transfer system using encryption and blockchain-based logging. Files are encrypted before storage, and each transaction is recorded in a hash-linked block structure, ensuring data integrity, accountability, and improved security in digital communication.
 
 
 ---
@@ -25,18 +28,11 @@ Traditional file sharing systems are vulnerable to data breaches and unauthorize
 ##  System Architecture
 
 - User uploads file
-
 - File encrypted using AES
-
 - File stored in database
-
 - Transaction recorded in blockchain
-
 - Access request handled by owner/admin
 
-
-
----
 
 ---
 
@@ -53,17 +49,11 @@ Traditional file sharing systems are vulnerable to data breaches and unauthorize
 ##  Technologies Used
 
 - Java
-
 - JSP
-
 - Servlets
-
 - MySQL
-
 - JDBC
-
 - AES Encryption
-
 - Custom Blockchain Implementation
 
 ---
@@ -91,29 +81,21 @@ Traditional file sharing systems are vulnerable to data breaches and unauthorize
 ##  Database Setup
 
 1. Install MySQL
-
 2. Create database: secure\_communication\_db
-
 3. Import `final\_db.sql`
-
-
 
 ---
 
 
-
 ##  My Contribution
 
-- Designed and managed MySQL database schema
+As part of the **Secure Communication and File Transfer System using Blockchain**, I was responsible for designing and managing the backend database architecture to ensure secure, efficient, and scalable data operations.
 
-- Developed SQL queries for authentication and file handling
+I designed the MySQL database schema in `final_db.sql`, defining structured tables, relationships, and constraints to maintain data integrity and support blockchain-based transaction logging. I developed and optimized SQL queries for data retrieval (SELECT), data manipulation (INSERT, UPDATE, DELETE), and authentication processes.
 
-- Integrated database with Java using JDBC
+Additionally, I implemented the database connection layer using JDBC in `Dbconn.java`, where I managed driver loading, connection establishment, statement execution, result processing, and proper resource cleanup. I also applied basic performance optimization techniques such as indexing and query refinement to improve system responsiveness as user and transaction volume increases.
 
-- Managed backend data operations
-
-- Optimized SQL queries for performance
-
+My contributions ensured seamless interaction between the web application and the database while maintaining security, reliability, and performance standards.
 
 
 
